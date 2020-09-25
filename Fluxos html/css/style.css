@@ -5,41 +5,55 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
-    background-color: rgb(172, 228, 230);
+    background-color:#d6ffec; 
+    font-family: "Lora", serif;
 }
 
+
 header {
-    position: block;
     display: flex;
     justify-content: center;
-    align-items: center;
-    overflow: auto;
-    height: 3rem;
-    border-bottom: .15rem solid black;
-    background-color: rgb(77, 209, 165);
+    height: 7%;
+    width: 100%;
+    border-bottom: .15rem solid #077c8b;
+    background-color:#11ac78;
+    font-family: "Montserrat", sans-serif;
 }
 
 main {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     overflow: auto;
+    height: 86%;
+    font-family: "Lora", serif;
 }
 
 footer {
-    position: block;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 3rem;
-    border-top: .15rem solid black;
-    background-color: rgb(77, 209, 165);
-    padding:0.3rem;
+    height: 7%;
+    width: 100%;
+    border-top: .15rem solid #146B20;
+    background-color: #2DEB46;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    border-top: .15rem solid #146B20;
+    background-color: #2DEB46;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
+    font-family: "Lora";
     font-size: 2rem;
 }
 
@@ -56,16 +70,16 @@ h3 {
 
 .carrinho {
     position: absolute;
-    top: 0.85rem;
-    right: 0.1rem;
+    right: 1%;
+    font-family: "Peddana", serif;
 }
 
 .userbox {
-    background-color: darkcyan;
+    background-color:#75eebc;
     margin-bottom: 0.3rem;
     padding: 0.3rem;
     font-size: 1.05rem;
-    border-bottom: .2rem solid rgb(0, 53, 53);
+    border-bottom: .2rem solid #31914e;
 }
 
 .scroll {
@@ -82,11 +96,12 @@ li {
 }
 
 .alimentos {
-    padding: 0.2rem;
+    padding: 0.3rem;
     border: .1rem solid gray;
+    font-size: 2rem;
 }
 
-.fakemain {
+.dieta {
     padding: .3rem;
 }
 
@@ -96,13 +111,27 @@ li {
 }
 
 .dieta {
-    background-color: darkcyan;
-    margin-bottom: 0.3rem;
+    background-color: #75eebc;
     padding: 0.3rem;
     font-size: 1.05rem;
-    border: .2rem solid rgb(0, 53, 53);
+    border: .2rem solid #31914e;
 }
 
 p {
     margin-bottom: 1rem;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: auto;
+    height: 86%;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
 }

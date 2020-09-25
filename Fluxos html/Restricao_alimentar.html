@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&family=Peddana&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -13,27 +14,30 @@
                 Path to Fit
             </h1>
         </header>
-        <main class=fakemain>
+        <main class="scroll">
             <h2>
                 Restrições
             </h2>
-            <ul>
-                <li class=paravoce><a href='Home.html'>
-                    Intolerante a lactose
-                </a></li>
-                <li class=paravoce><a href=''>
-                    Alergia a gluten
-                </a></li>
-                <li class=paravoce><a href=''>
-                    Diábetico
-                </a></li>
-                <li class=paravoce><a href=''>
-                    Alergia a amendoin
-                </a></li>
-                <li class=paravoce><a href=''>
-                    Outras
-                </a></li> 
-            </ul>
+            <input type = "checkbox" id="Intolerante a lactose" name="Intolerante a lactose">
+                Intolerante a lactose
+            <input type = "checkbox" id="Alergia a gluten" name="Alergia a gluten">
+                Alergia a gluten
+            <input type = "checkbox" id="Diábetico" name="Diábetico">
+                Diábetico
+            <input type = "checkbox" id="Alergia a amendoin" name="Alergia a amendoin">
+                Alergia a amendoin
+            <form>
+                <span>Outras:</span>
+                <label>
+                    <input type="text">
+                </label>
+                <input type="submit">
+            </form>
         </main>
+        <footer>
+            <a href='Cadastro.html'>
+                Voltar 
+            </a>
+        </footer>
     </body>
 </html>
